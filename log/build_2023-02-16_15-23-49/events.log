@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000786] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001148] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/z/ws01_plumbing/install/base_interfaces_demo')])}
+[0.001186] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.023704] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 1}
+[0.034610] (-) EventReactorShutdown: {}

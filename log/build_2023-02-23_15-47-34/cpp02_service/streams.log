@@ -1,0 +1,50 @@
+[0.014s] Invoking command in '/home/z/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.032s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.155s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.211s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.212s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found base_interfaces_demo: 0.0.0 (/home/z/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.400s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.448s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.448s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/z/ws01_plumbing/src/cpp02_service/include>
+[0.448s] -- Configured cppcheck exclude dirs and/or files: 
+[0.448s] -- Added test 'lint_cmake' to check CMake code style
+[0.448s] -- Added test 'uncrustify' to check C / C++ code style
+[0.449s] -- Configured uncrustify additional arguments: 
+[0.449s] -- Added test 'xmllint' to check XML markup files
+[0.449s] -- Configuring done
+[0.458s] -- Generating done
+[0.459s] -- Build files have been written to: /home/z/ws01_plumbing/build/cpp02_service
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.482s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.487s] [ 75%] Built target demo01_server
+[2.775s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[2.880s] [100%] Built target demo02_client
+[2.888s] Invoked command in '/home/z/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[2.914s] Invoking command in '/home/z/ws01_plumbing/build/cpp02_service': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp02_service
+[2.919s] -- Install configuration: ""
+[2.919s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[2.919s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[2.919s] -- Set runtime path of "/home/z/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[2.919s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.919s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.920s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.920s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.921s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.929s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.929s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.929s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.929s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[2.929s] Invoked command in '/home/z/ws01_plumbing/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/src/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp02_service

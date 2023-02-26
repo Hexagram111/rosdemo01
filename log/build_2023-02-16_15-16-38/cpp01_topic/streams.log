@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/home/z/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/install/cpp01_topic
+[0.147s] -- The C compiler identification is GNU 11.3.0
+[0.234s] -- The CXX compiler identification is GNU 11.3.0
+[0.245s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.510s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.597s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.664s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.670s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.782s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.871s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.890s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.935s] -- Looking for pthread.h
+[0.983s] -- Looking for pthread.h - found
+[0.984s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.038s] -- Found Threads: TRUE  
+[1.181s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.181s]   By not providing "Findbase_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.181s]   project has asked CMake to find a package configuration file provided by
+[1.181s]   "base_interfaces", but CMake did not find one.
+[1.181s] 
+[1.181s]   Could not find a package configuration file provided by "base_interfaces"
+[1.181s]   with any of the following names:
+[1.181s] 
+[1.181s]     base_interfacesConfig.cmake
+[1.181s]     base_interfaces-config.cmake
+[1.181s] 
+[1.181s]   Add the installation prefix of "base_interfaces" to CMAKE_PREFIX_PATH or
+[1.182s]   set "base_interfaces_DIR" to a directory containing one of the above files.
+[1.182s]   If "base_interfaces" provides a separate development package or SDK, be
+[1.182s]   sure it has been installed.
+[1.182s] 
+[1.182s] [0m
+[1.182s] -- Configuring incomplete, errors occurred!
+[1.182s] See also "/home/z/ws01_plumbing/build/cpp01_topic/CMakeFiles/CMakeOutput.log".
+[1.187s] Invoked command in '/home/z/ws01_plumbing/build/cpp01_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/install/cpp01_topic

@@ -1,0 +1,6 @@
+Invoking command in '/home/z/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/src/install/cpp01_topic
+Invoked command in '/home/z/ws01_plumbing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/src/install/cpp01_topic
+Invoking command in '/home/z/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/z/ws01_plumbing/src/build/cpp01_topic -- -j4 -l4
+Invoked command in '/home/z/ws01_plumbing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/z/ws01_plumbing/src/build/cpp01_topic -- -j4 -l4
+Invoking command in '/home/z/ws01_plumbing/src/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/z/ws01_plumbing/src/build/cpp01_topic
+Invoked command in '/home/z/ws01_plumbing/src/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/z/ws01_plumbing/src/build/cpp01_topic

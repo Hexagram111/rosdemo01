@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/z/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_student[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_student[0m
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.056s] [ 25%] Built target demo01_talker_str
+[0.059s] [ 50%] Built target demo02_listener_str
+[0.061s] [ 75%] Built target demo03_talker_student
+[0.062s] [ 87%] [32mBuilding CXX object CMakeFiles/demo04_listener_student.dir/src/demo04_listener_student.cpp.o[0m
+[5.890s] [100%] [32m[1mLinking CXX executable demo04_listener_student[0m
+[6.153s] [100%] Built target demo04_listener_student
+[6.164s] Invoked command in '/home/z/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[6.195s] Invoking command in '/home/z/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp01_topic
+[6.200s] -- Install configuration: ""
+[6.200s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[6.201s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[6.201s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_student
+[6.201s] -- Installing: /home/z/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_student
+[6.204s] -- Set runtime path of "/home/z/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_student" to ""
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[6.204s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[6.205s] -- Installing: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[6.205s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[6.206s] Invoked command in '/home/z/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/z/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp01_topic
