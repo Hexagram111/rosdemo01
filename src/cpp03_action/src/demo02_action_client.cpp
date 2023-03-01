@@ -27,7 +27,7 @@ class ActionClient : public rclcpp::Node
 public:
 
   explicit ActionClient(const rclcpp::NodeOptions & node_options = rclcpp::NodeOptions())
-  : Node("ction_client", node_options)
+  : Node("action_client", node_options)
   {
     // 3-1.创建动作客户端；
     this->client_ptr_ = rclcpp_action::create_client<Progress>(this,"get_sum");
@@ -71,7 +71,8 @@ private:
   }
 
   // 3-4.处理连续反馈；
-  void feedback_callback(GoalHandleProgress::SharedPtr,const std::shared_ptr<const Progress::Feedback> feedback)
+  void feedback_callback(
+    GoalHandleProgress::SharedPtr,const std::shared_ptr<const Progress::Feedback> feedback)
   {
     int32_t progress = (int32_t)(feedback->progress * 100);
     RCLCPP_INFO(this->get_logger(), "当前进度: %d%%", progress);
@@ -81,7 +82,7 @@ private:
   void result_callback(const GoalHandleProgress::WrappedResult & result)
   {
     switch (result.code) {
-      case rclcpp_action::ResultCode::SUCCEEDED:
+      case rclcpp_action::ResultCode::SUCCEEDED:   
         break;
       case rclcpp_action::ResultCode::ABORTED:
         RCLCPP_ERROR(this->get_logger(), "任务被中止");

@@ -78,5 +78,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/build/base_interfaces_demo/base_interfaces_demo__py"
 }

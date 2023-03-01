@@ -1,12 +1,17 @@
 /*  
   需求：编写动作服务端实习，可以提取客户端请求提交的整型数据，并累加从1到该数据之间的所有整数以求和，
        每累加一次都计算当前运算进度并连续反馈回客户端，最后，在将求和结果返回给客户端。
+  分析：创建动作服务对象
+       处理提交的目标值
+       生成连续反馈
+       响应最终结果
+       处理取消请求
   步骤：
     1.包含头文件；
     2.初始化 ROS2 客户端；
     3.定义节点类；
       3-1.创建动作服务端；
-      3-2.处理请求数据；
+      3-2.处理请求数据；      2,3,4都是通过回调函数实现的
       3-3.处理取消任务请求；
       3-4.生成连续反馈。
     4.调用spin函数，并传入节点对象指针；
@@ -28,12 +33,12 @@ class ActionServer : public rclcpp::Node
 public:
 
   explicit ActionServer(const rclcpp::NodeOptions & options = rclcpp::NodeOptions())
-  : Node("action_server", options)
+  : Node("action_server_c_node", options)
   {
     // 3-1.创建动作服务端；
     this->action_server_ = rclcpp_action::create_server<Progress>(
-      this,
-      "get_sum",
+      this,          //SharedPtr
+      "get_sum",     //TopicName
       std::bind(&ActionServer::handle_goal, this, _1, _2),
       std::bind(&ActionServer::handle_cancel, this, _1),
       std::bind(&ActionServer::handle_accepted, this, _1));
@@ -44,9 +49,10 @@ private:
   rclcpp_action::Server<Progress>::SharedPtr action_server_;
 
   // 3-2.处理请求数据；
-  rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::Goal> goal)
+  rclcpp_action::GoalResponse handle_goal(
+    const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const Progress::Goal> goal)
   {
-    (void)uuid;
+    (void)uuid;  //未使用的参数使用void忽略
     RCLCPP_INFO(this->get_logger(), "接收到动作客户端请求，请求数字为 %ld", goal->num);
     if (goal->num < 1) {
       return rclcpp_action::GoalResponse::REJECT;
@@ -66,7 +72,7 @@ private:
   void execute(const std::shared_ptr<GoalHandleProgress> goal_handle)
   {
     RCLCPP_INFO(this->get_logger(), "开始执行任务");
-    rclcpp::Rate loop_rate(10.0);
+   // rclcpp::Rate loop_rate(10.0);
     const auto goal = goal_handle->get_goal();
     auto feedback = std::make_shared<Progress::Feedback>();
     auto result = std::make_shared<Progress::Result>();
@@ -81,12 +87,14 @@ private:
         return;
       }
       feedback->progress = (double_t)i / goal->num;
+      //1.
       goal_handle->publish_feedback(feedback);
       RCLCPP_INFO(this->get_logger(), "连续反馈中，进度：%.2f", feedback->progress);
 
-      loop_rate.sleep();
+      //loop_rate.sleep();
     }
-
+    
+    //2.生成最终的响应结果
     if (rclcpp::ok()) {
       result->sum = sum;
       goal_handle->succeed(result);
@@ -97,6 +105,7 @@ private:
   // 3-4.生成连续反馈。
   void handle_accepted(const std::shared_ptr<GoalHandleProgress> goal_handle)
   {
+    //新建子线程处理耗时的主逻辑实现
     std::thread{std::bind(&ActionServer::execute, this, _1), goal_handle}.detach();
   }
 }; 
