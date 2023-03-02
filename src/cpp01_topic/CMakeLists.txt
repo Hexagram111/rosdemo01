@@ -20,6 +20,7 @@ target_include_directories(demo01_talker_str PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(demo01_talker_str PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
 ament_target_dependencies(
   demo01_talker_str
   "rclcpp"

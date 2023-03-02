@@ -1,0 +1,24 @@
+[0.050s] Invoking command in '/home/z/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/install/cpp04_param:/home/z/ws01_plumbing/install/cpp03_action:/home/z/ws01_plumbing/install/cpp02_service:/home/z/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.175s] [ 50%] Built target demo01_server
+[0.185s] [100%] Built target demo02_client
+[0.232s] Invoked command in '/home/z/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/install/cpp04_param:/home/z/ws01_plumbing/install/cpp03_action:/home/z/ws01_plumbing/install/cpp02_service:/home/z/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/z/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.354s] Invoking command in '/home/z/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/install/cpp04_param:/home/z/ws01_plumbing/install/cpp03_action:/home/z/ws01_plumbing/install/cpp02_service:/home/z/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp02_service
+[0.363s] -- Install configuration: ""
+[0.364s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[0.364s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[0.365s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[0.366s] -- Installing: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[0.366s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[0.376s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[0.376s] -- Up-to-date: /home/z/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[0.381s] Invoked command in '/home/z/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/z/ws01_plumbing/install/base_interfaces_demo:/home/z/ws01_plumbing/install/cpp04_param:/home/z/ws01_plumbing/install/cpp03_action:/home/z/ws01_plumbing/install/cpp02_service:/home/z/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/z/ws01_plumbing/build/cpp02_service

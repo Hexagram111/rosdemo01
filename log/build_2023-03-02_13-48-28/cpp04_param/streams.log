@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/z/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/install/cpp04_param
+[0.110s] -- The C compiler identification is GNU 11.3.0
+[0.189s] -- The CXX compiler identification is GNU 11.3.0
+[0.198s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.315s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.321s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.437s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.515s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.574s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.578s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.588s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.687s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.761s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.778s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.807s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.819s] -- Looking for pthread.h
+[0.866s] -- Looking for pthread.h - found
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.913s] -- Found Threads: TRUE  
+[1.044s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.044s]   ament_target_dependencies() the passed package name 'demo02_param_client'
+[1.044s]   was not found before
+[1.044s] Call Stack (most recent call first):
+[1.044s]   CMakeLists.txt:15 (ament_target_dependencies)
+[1.044s] 
+[1.044s] [0m
+[1.044s] -- Configuring incomplete, errors occurred!
+[1.044s] See also "/home/z/ws01_plumbing/build/cpp04_param/CMakeFiles/CMakeOutput.log".
+[1.049s] Invoked command in '/home/z/ws01_plumbing/build/cpp04_param' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/z/ws01_plumbing/src/cpp04_param -DCMAKE_INSTALL_PREFIX=/home/z/ws01_plumbing/install/cpp04_param
